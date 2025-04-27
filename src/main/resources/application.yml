@@ -3,7 +3,7 @@ server:
 
 spring:
   kafka:
-    bootstrap-servers: my-kafka.default.svc.cluster.local:9092
+    bootstrap-servers: kafka.default.svc.cluster.local:9092
     consumer:
       group-id: order-group
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
