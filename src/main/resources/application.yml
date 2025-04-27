@@ -13,7 +13,7 @@ spring:
   datasource:
     url: jdbc:mysql://my-mysql.default.svc.cluster.local:3306/kafka
     username: root
-    password: Eaif8huKNL
+    password: VvJyDT8Fjg
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
